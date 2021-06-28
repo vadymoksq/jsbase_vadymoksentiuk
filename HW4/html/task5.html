@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW4 Task5</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/back.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    
+
+    <div class="game">
+        <div class="container">
+            <h1 class="game__title">Камень, Ножицы, Бумага</h1>
+            <h2 class="game__start">Что выберешь?</h2>
+            <ul class="game__choice">
+                <li class="game__choice-list"><button class="game__choice-btn" id="stone" onclick="stoneFunc()"><img src="../img/stone.png" alt=""></button></li>
+                <li class="game__choice-list"><button class="game__choice-btn" id="cut" onclick="cutFunc()"><img src="../img/cut.png" alt=""></button></li>
+                <li class="game__choice-list"><button class="game__choice-btn" id="paper" onclick="paperFunc()"><img src="../img/paper.png" alt=""></button></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="../js/task5.js"></script>
+
+    <div class="back">
+        <a href="../index.html" class="back-link">Вернутся на главную</a>
+    </div>
+</body>
+
+</html>
